@@ -1,67 +1,81 @@
-# The Mood Machine
+# PawPal+ (Module 2 Project)
 
-The Mood Machine is a simple text classifier that begins with a rule based approach and can optionally be extended with a small machine learning model. It tries to guess whether a short piece of text sounds **positive**, **negative**, **neutral**, or even **mixed** based on patterns in your data.
+You are building **PawPal+**, a Streamlit app that helps a pet owner plan care tasks for their pet.
 
-This lab gives you hands on experience with how basic systems work, where they break, and how different modeling choices affect fairness and accuracy. You will edit code, add data, run experiments, and write a short model card reflection.
+## Scenario
 
----
+A busy pet owner needs help staying consistent with pet care. They want an assistant that can:
 
-## Repo Structure
+- Track pet care tasks (walks, feeding, meds, enrichment, grooming, etc.)
+- Consider constraints (time available, priority, owner preferences)
+- Produce a daily plan and explain why it chose that plan
 
-```plaintext
-├── dataset.py         # Starter word lists and example posts (you will expand these)
-├── mood_analyzer.py   # Rule based classifier with TODOs to improve
-├── main.py            # Runs the rule based model and interactive demo
-├── ml_experiments.py  # (New) A tiny ML classifier using scikit-learn
-├── model_card.md      # Template to fill out after experimenting
-└── requirements.txt   # Dependencies for optional ML exploration
-```
+Your job is to design the system first (UML), then implement the logic in Python, then connect it to the Streamlit UI.
 
----
+## What you will build
 
-## Getting Started
+Your final app should:
 
-1. Open this folder in VS Code.
-2. Make sure your Python environment is active.
-3. Install dependencies:
+- Let a user enter basic owner + pet info
+- Let a user add/edit tasks (duration + priority at minimum)
+- Generate a daily schedule/plan based on constraints and priorities
+- Display the plan clearly (and ideally explain the reasoning)
+- Include tests for the most important scheduling behaviors
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Key features
 
-4. Run the rule-based starter:
+- **Chronological sorting** — The scheduler orders tasks with `Scheduler.sort_by_time()`, which sorts a list of `Task` instances by each task’s `start_time` string using a **`lambda`-based key** (`key=lambda t: t.start_time`). With consistent zero-padded `HH:MM` values, that lexicographic order matches true time-of-day order, so the Streamlit **Preview** table and any downstream logic see your day from morning through evening.
 
-    ```bash
-    python main.py
-    ```
+- **Smart conflict detection** — `Scheduler.check_for_conflicts()` turns each task into a **half-open interval** `[start, end)` on its `due_date` by combining the calendar date with `start_time` and adding `duration_mins` via **`timedelta`**. It compares every pair of tasks: if the latest start is still before the earliest end, those windows overlap and a **human-readable warning** is returned. For pet owners, that surfaces **double-booked slots** (for example, two chores both claiming your 9:00 hour) before you rely on a plan that assumes you can be in two places at once.
 
-If pieces of the analyzer are not implemented yet, you will see helpful errors that guide you to the TODOs.
+- **Automated recurrence** — When a task is marked complete, `Task.mark_complete()` sets `is_completed` and, for **Daily** or **Weekly** frequencies, builds the next `Task` with the same metadata and a new `due_date` computed as the original date plus **`timedelta(days=1)`** or **`timedelta(days=7)`**. `Pet.complete_task()` (and `Scheduler.handle_recurrence()`, which delegates to it) **appends** that next occurrence to the pet’s list. Owners keep **standing routines** (meds, walks, litter, grooming) on the calendar without re-entering them every day.
 
-To try the ML model later, run:
+### App preview
+
+Demo screenshots live under **`images/`** using names such as **`preview.png`** (add your captures there so they render in GitHub and local viewers).
+
+![PawPal+ app preview](images/preview.png)
+
+## Getting started
+
+### Setup
 
 ```bash
-python ml_experiments.py
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
----
+### Suggested workflow
 
-## What You Will Do
+1. Read the scenario carefully and identify requirements and edge cases.
+2. Draft a UML diagram (classes, attributes, methods, relationships).
+3. Convert UML into Python class stubs (no logic yet).
+4. Implement scheduling logic in small increments.
+5. Add tests to verify key behaviors.
+6. Connect your logic to the Streamlit UI in `app.py`.
+7. Refine UML so it matches what you actually built.
 
-During this lab you will:
+## Testing PawPal+
 
-- Implement the missing parts of the rule based `MoodAnalyzer`.
-- Add new positive and negative words.
-- Expand the dataset with more posts, including slang, emojis, sarcasm, or mixed emotions.
-- Observe unusual or incorrect predictions and think about why they happen.
-- Train a tiny machine learning model and compare its behavior to your rule based system.
-- Complete the model card with your findings about data, behavior, limitations, and improvements.
-- The goal is to help you reason about how models behave, how data shapes them, and why even small design choices matter.
+### How to run
 
----
+Run the full test suite from the project root:
 
-## Tips
+```bash
+python -m pytest
+```
 
-- Start with preprocessing before updating scoring rules.
-- When debugging, print tokens, scores, or intermediate choices.
-- Ask an AI assistant to help create edge case posts or unusual wording.
-- Try examples that mislead or confuse your model. Failure cases teach you the most.
+### Coverage summary
+
+The unit tests in `tests/test_pawpal.py` exercise core behavior of `pawpal_system.py`, including:
+
+- **Sorting integrity** — Tasks are ordered in correct chronological order when sorted by `start_time`.
+- **Recurrence logic** — Completing a daily (or weekly) task creates the next occurrence with the expected `due_date` advance via `timedelta`.
+- **Collision detection** — The scheduler reports when task time windows overlap, so overlapping blocks are not silently ignored.
+
+### Reliability score
+
+**System confidence level:** 5/5 stars
+
+Because the core scheduling logic lives in `pawpal_system.py`, separate from the Streamlit UI, it can be fully unit-tested. That separation keeps the scheduling “brain” predictable under bad or unusual input and helps catch edge cases before they reach the interface.
