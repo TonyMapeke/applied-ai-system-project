@@ -4,6 +4,8 @@ from itertools import combinations
 import streamlit as st
 
 from pawpal_system import Owner, Pet, Scheduler, Task
+from rag_retriever import retrieve_facts
+from ai_explainer import generate_explanation
 
 st.set_page_config(page_title="PawPal+", page_icon="🐾", layout="wide")
 
@@ -19,6 +21,9 @@ if "last_plan" not in st.session_state:
 
 if "plan_conflict_detail" not in st.session_state:
     st.session_state.plan_conflict_detail = []
+
+if "ai_explanation" not in st.session_state:
+    st.session_state.ai_explanation = None
 
 
 def _time_to_hhmm(t: time) -> str:
@@ -207,7 +212,7 @@ if has_pets:
             }
             for t in sorted_tasks
         ]
-        st.dataframe(preview_rows, use_container_width=True, hide_index=True)
+        st.dataframe(preview_rows, width='stretch', hide_index=True)
 
         st.subheader("Mark tasks complete")
         st.caption("Daily/Weekly tasks get the next occurrence appended automatically.")
@@ -248,9 +253,15 @@ if has_pets:
         st.session_state.plan_conflict_detail = (
             _conflict_messages_with_pets(owner) if conflict_warnings else []
         )
-        st.session_state.last_plan = Scheduler.generate_plan(
+        plan = Scheduler.generate_plan(
             owner,
             available_time=int(available_time),
+        )
+        st.session_state.last_plan = plan
+        pet_task_pairs = [(p, t) for p, t, _, _ in plan.scheduled_slots]
+        facts = retrieve_facts(pet_task_pairs)
+        st.session_state.ai_explanation = generate_explanation(
+            plan, owner, int(available_time), facts
         )
         st.rerun()
 
@@ -292,14 +303,15 @@ if st.session_state.last_plan is not None and has_pets:
                         "Recurrence": t.frequency,
                     }
                 )
-            st.dataframe(rows, use_container_width=True, hide_index=True)
+            st.dataframe(rows, width='stretch', hide_index=True)
         else:
             st.info("No tasks fit this time window.")
         st.caption(f"Total scheduled time: **{plan.total_duration}** minutes.")
 
     with col_explain:
-        st.markdown("#### Scheduler explanation")
-        st.markdown(plan.explanation)
+        st.markdown("#### Schedule explanation")
+        explanation = st.session_state.ai_explanation or plan.explanation
+        st.markdown(explanation)
         if plan.conflict_warnings:
             st.caption("Declared-time overlap among **selected** tasks:")
             for msg in plan.conflict_warnings:

@@ -1,0 +1,299 @@
+{
+  "dog": {
+    "exercise": [
+      "Adult dogs generally need 30–60 minutes of moderate exercise per day, split across two or more sessions.",
+      "High-energy breeds (Border Collies, Huskies, Retrievers) may need 90 minutes or more of vigorous activity daily.",
+      "Puppies under 6 months should exercise in short 5-minute bursts per month of age to protect developing joints.",
+      "Senior dogs (7+ years) benefit from gentle daily walks; shorter, more frequent outings are better than one long session.",
+      "Mental stimulation such as sniff walks and puzzle toys counts as exercise and reduces destructive behavior."
+    ],
+    "walk": [
+      "Dogs should be walked at least twice a day; morning and evening walks help regulate their biological clock.",
+      "Allow dogs to sniff freely during walks — sniffing is mentally tiring and satisfying for them.",
+      "Retractable leashes reduce control; a standard 4–6 ft leash is safer in busy areas.",
+      "Hot pavement can burn paw pads; walk dogs in early morning or evening when temperatures are above 25°C (77°F).",
+      "After rain or muddy walks, wipe paws dry to prevent irritation and fungal growth between toes."
+    ],
+    "feeding": [
+      "Most adult dogs should be fed twice daily — morning and evening — rather than leaving food out all day.",
+      "Puppies (under 6 months) typically need three to four small meals per day to maintain stable blood sugar.",
+      "Fresh water should be available at all times and the bowl cleaned daily to prevent bacterial buildup.",
+      "Avoid feeding dogs within an hour of vigorous exercise to reduce the risk of bloat (GDV), especially in large breeds.",
+      "Treats should make up no more than 10% of a dog's daily calorie intake to prevent weight gain.",
+      "Highly toxic foods that must be kept away from dogs at all times: grapes and raisins (can cause sudden kidney failure even in small amounts), chocolate (theobromine poisoning), onions and garlic (destroy red blood cells), macadamia nuts (neurological symptoms), and xylitol/birch sugar found in sugar-free gum and peanut butter (causes rapid insulin release and liver failure)."
+    ],
+    "grooming": [
+      "Short-haired dogs need brushing once or twice a week; long-haired or double-coated breeds need daily brushing.",
+      "Dogs should be bathed every 4–6 weeks unless they get visibly dirty; over-bathing strips natural skin oils.",
+      "Nails should be trimmed every 3–4 weeks; overgrown nails cause posture problems and joint pain over time.",
+      "Clean ears weekly with a vet-approved solution; never insert cotton swabs past the outer ear canal.",
+      "Brush teeth 2–3 times per week with dog-safe toothpaste to prevent tartar and gum disease."
+    ],
+    "medication": [
+      "Flea, tick, and heartworm preventatives are typically given monthly; consult your vet for the right schedule.",
+      "Give medications at the same time each day to maintain consistent blood levels and help you remember.",
+      "Never give dogs human medications such as ibuprofen, acetaminophen, or antidepressants — they are toxic.",
+      "If a dog vomits shortly after taking a pill, contact your vet to determine whether the dose should be repeated.",
+      "Store medications in a cool, dry place out of the dog's reach; some dogs will seek out and eat pill bottles.",
+      "Core vaccinations every dog should receive: Rabies (legally required in most jurisdictions) and DHPP (Distemper, Hepatitis, Parvovirus, Parainfluenza). Consult your vet for the appropriate schedule and any region-specific boosters."
+    ],
+    "enrichment": [
+      "Rotate toys every few days so dogs stay engaged — novelty maintains interest better than constant availability.",
+      "Puzzle feeders and Kongs filled with food make dogs work for their meals, reducing boredom and anxiety.",
+      "Socialization with other dogs and humans should continue throughout a dog's life, not just in puppyhood.",
+      "Training sessions of 5–10 minutes are mentally exhausting for dogs and count as significant enrichment.",
+      "Scent work games, such as hiding treats for the dog to find, tap into natural instincts and tire dogs out quickly."
+    ],
+    "general": [
+      "Annual vet checkups are recommended for adult dogs; seniors (7+) benefit from twice-yearly visits.",
+      "Watch for changes in water intake, appetite, or energy level — these are early signs of many health issues.",
+      "Dogs are social animals and should not be left alone for more than 4–6 hours on a regular basis.",
+      "Microchipping and keeping ID tags current significantly increases the chance of recovery if a dog is lost.",
+      "Spayed/neutered dogs have lower risks of certain cancers and behavioral problems associated with hormones.",
+      "The socialization window closes at approximately 16 weeks of age. Puppies must be exposed to a wide variety of people, environments, sounds, surfaces, and other animals during this period; gaps in socialization are a leading cause of fear-based behavioral problems in adult dogs.",
+      "Core vaccines for dogs: Rabies (required by law in most areas) and the DHPP combination vaccine covering Distemper, Hepatitis, Parvovirus, and Parainfluenza. A vet-recommended schedule is essential from puppyhood."
+    ]
+  },
+  "cat": {
+    "exercise": [
+      "Cats need at least two 10–15 minute active play sessions per day to maintain healthy weight and mental health.",
+      "Interactive wand toys mimic prey movement and trigger natural hunting behavior better than passive toys.",
+      "Indoor cats are at higher risk of obesity; scheduled play sessions are more effective than free-roam toys.",
+      "Laser pointers are stimulating but should always end with a physical toy the cat can 'catch' to avoid frustration.",
+      "Senior cats (10+ years) still need gentle play but may prefer shorter, slower sessions once or twice daily."
+    ],
+    "feeding": [
+      "Adult cats do well on two measured meals per day; free-feeding dry food often leads to overeating.",
+      "Cats are obligate carnivores and require taurine, arachidonic acid, and vitamin A from animal sources.",
+      "Fresh water should always be available; many cats prefer running water — a cat fountain increases intake.",
+      "Wet food helps cats stay hydrated, which is important for urinary tract and kidney health.",
+      "Sudden food changes can cause digestive upset; transition new foods gradually over 7–10 days."
+    ],
+    "grooming": [
+      "Short-haired cats usually self-groom adequately; brushing once a week helps reduce hairballs.",
+      "Long-haired breeds (Persians, Maine Coons) need daily combing to prevent painful mats.",
+      "Cats rarely need baths but may require one after contact with toxic or sticky substances.",
+      "Trim claws every 2–3 weeks to prevent them from curling back into the paw pad.",
+      "Routine dental care, including vet dental cleanings and at-home brushing, prevents periodontal disease."
+    ],
+    "medication": [
+      "Cats metabolize drugs differently from dogs and humans; never give feline medications without vet guidance.",
+      "Topical flea treatments should be applied to the back of the neck where the cat cannot lick them off.",
+      "Pill pockets or wrapping pills in a small amount of wet food often helps with difficult cats.",
+      "Liquid medications can be given with a syringe directed to the side of the mouth, not straight back.",
+      "Keep a medication log with dates and doses, especially for ongoing conditions such as hyperthyroidism or diabetes."
+    ],
+    "enrichment": [
+      "Cats are natural climbers; vertical space like cat trees and wall shelves significantly reduces stress.",
+      "Window perches with outdoor views (birds, squirrels) provide hours of passive stimulation for indoor cats.",
+      "Scratching posts must be tall and sturdy enough to allow the cat to perform a full-body vertical stretch without the post tipping; a wobbly or short post will be ignored, and the cat will use furniture instead.",
+      "Puzzle feeders and foraging toys slow eating and keep cats mentally engaged during mealtimes.",
+      "Rotate hiding spots and tunnels every week to maintain novelty in the environment."
+    ],
+    "general": [
+      "Cats should see a vet once a year; senior cats (10+) benefit from biannual visits.",
+      "Litter boxes should be scooped daily and fully cleaned weekly; have one box per cat plus one extra.",
+      "Cats hide signs of illness; changes in litter box habits, grooming, or appetite are important warning signs.",
+      "Indoor-only cats live significantly longer on average than cats with outdoor access.",
+      "Cats communicate stress through over-grooming, hiding, or aggression — identify and reduce stressors early.",
+      "True lilies (Easter lily, Tiger lily, Asiatic lily, and Daylily) are acutely fatal to cats. Every part of the plant — leaves, petals, pollen, and even the water in the vase — can cause rapid, irreversible kidney failure. A single petal or a small amount of pollen groomed off the coat can kill a cat within 36–72 hours without emergency treatment. Keep all true lilies out of any home with cats."
+    ]
+  },
+  "rabbit": {
+    "exercise": [
+      "Rabbits need a minimum of 3–4 hours of free-roaming time outside their enclosure each day.",
+      "Exercise space should be rabbit-proofed — they will chew cables, furniture legs, and baseboards.",
+      "Rabbits are most active at dawn and dusk; schedule playtime around those natural activity peaks.",
+      "Tunnels, cardboard boxes, and ramps provide physical and mental exercise in a small space.",
+      "Rabbits that do not get enough exercise develop obesity, weak muscles, and GI stasis."
+    ],
+    "feeding": [
+      "Unlimited timothy hay should make up 80% of a rabbit's diet; it is essential for gut motility and dental wear.",
+      "Fresh leafy greens (romaine, parsley, cilantro) can be given daily — about 1 cup per 2 lbs of body weight.",
+      "Pellets should be limited to ¼ cup per 6 lbs of body weight per day to prevent obesity.",
+      "Never feed rabbits iceberg lettuce, avocado, rhubarb, chocolate, or onions — these are toxic.",
+      "Fresh water should always be available; both a bowl and a bottle work, but bowls are more natural.",
+      "Rabbits produce two types of droppings: hard round fecal pellets (normal waste) and soft, grape-cluster cecotropes. Cecotropes are nutrient-dense and are eaten directly from the anus, usually at night or early morning. This is essential, normal behavior — not a hygiene problem. A rabbit that cannot reach its hindquarters (due to obesity or arthritis) will miss cecotropes and develop serious nutritional deficiencies."
+    ],
+    "grooming": [
+      "Short-haired rabbits need brushing once a week; long-haired breeds (Angoras) need daily combing.",
+      "Rabbits shed heavily 2–4 times per year; increase brushing frequency during shed season to prevent ingestion.",
+      "Never bathe a rabbit in water — it causes extreme stress and hypothermia; spot-clean with a damp cloth only.",
+      "Nails should be trimmed every 6–8 weeks; overgrown nails snag on carpet and can break painfully.",
+      "Check the dewlap (chin fold) on females for moisture or sores, which indicate grooming problems."
+    ],
+    "medication": [
+      "Rabbits cannot vomit, so GI stasis (gut slowdown) is a medical emergency requiring immediate vet care.",
+      "Many common animal medications are toxic to rabbits; always use a rabbit-savvy exotic vet.",
+      "Pain and illness are often masked in rabbits; subtle changes in posture, droppings, or eating are key signals.",
+      "Gut motility drugs like simethicone can help mild gas; keep some on hand and consult your vet on dosing.",
+      "Annual health checkups are important even for seemingly healthy rabbits since they hide illness well."
+    ],
+    "enrichment": [
+      "Rabbits are highly intelligent; cardboard boxes, tunnels, and digging boxes prevent boredom-related behaviors.",
+      "Tossing a paper towel roll stuffed with hay encourages natural foraging behavior.",
+      "Rabbits are social animals and often thrive in bonded pairs; single rabbits need more human interaction.",
+      "Chew toys made of natural wood (apple, willow, pear) satisfy the need to gnaw and keep teeth worn down.",
+      "Rearranging the environment occasionally provides novelty and mental stimulation for rabbits."
+    ],
+    "general": [
+      "Rabbits should see an exotic vet at least annually; find one experienced with small mammals before you need one.",
+      "Spaying females greatly reduces the very high risk of uterine cancer (80% in unspayed females over 5 years).",
+      "Rabbit droppings should be plentiful, round, and uniform; changes in output signal digestive problems.",
+      "Rabbits can live 8–12 years with proper care; they are a significant long-term commitment.",
+      "Keep rabbits away from extreme temperatures; they are sensitive to heat above 25°C (77°F).",
+      "Always fully support a rabbit's hindquarters when picking it up. A rabbit that kicks freely while being held can generate enough force to snap its own spine, causing instant or progressive paralysis. Never allow a rabbit to hang or dangle, and keep handling sessions low to the ground until the rabbit is fully relaxed."
+    ]
+  },
+  "bird": {
+    "exercise": [
+      "Parrots and most pet birds need at least 2–3 hours outside the cage daily for flight and exploration.",
+      "Wing clipping is optional but reduces the risk of escape or injury; fully flighted birds need more exercise space.",
+      "Flight is the primary form of exercise for birds; ensure a safe, enclosed room before allowing free flight.",
+      "Foraging activities that require movement, climbing, and problem-solving double as exercise.",
+      "Birds that cannot fly (clipped or caged) should have perches at different heights to encourage climbing."
+    ],
+    "feeding": [
+      "Pellets should form 60–70% of most parrot diets; seeds alone lead to nutritional deficiencies and obesity.",
+      "Fresh vegetables and some fruit should be offered daily; dark leafy greens are especially nutritious.",
+      "Avocado, chocolate, caffeine, onion, garlic, and alcohol are toxic to birds — avoid entirely.",
+      "Remove uneaten fresh food after 2–4 hours to prevent bacterial growth in the food dish.",
+      "Fresh water should be changed daily; birds often dip food in their water, causing rapid bacterial contamination."
+    ],
+    "grooming": [
+      "Most birds bathe themselves if a shallow dish of water is provided; misting with a spray bottle also works.",
+      "Nails should be trimmed every 4–8 weeks depending on perch texture and individual growth rate.",
+      "Beak trimming is rarely needed if the bird has appropriately textured perches and safe wood to chew.",
+      "Feather condition is a direct indicator of health; dull or broken feathers suggest nutritional or stress issues.",
+      "Do not use aerosols, scented candles, or non-stick cookware near birds — fumes are rapidly fatal."
+    ],
+    "medication": [
+      "Birds hide illness until critically ill; any change in droppings, posture, or vocalisation warrants a vet visit.",
+      "Weigh your bird weekly on a gram scale; sudden weight loss is one of the earliest signs of illness in birds.",
+      "Find an avian vet before you need one — general vets often lack the equipment to treat birds.",
+      "Do not use over-the-counter bird treatments without vet advice; many contain ingredients toxic to birds.",
+      "Quarantine new birds for 30 days before introducing them to existing birds to prevent disease transmission."
+    ],
+    "enrichment": [
+      "Parrots are highly intelligent and need novel enrichment daily to prevent feather-destructive behaviors.",
+      "Rotate 3–4 different toy types every 2–3 days; novelty is key since birds quickly lose interest.",
+      "Foraging toys that hide food reward problem-solving and mimic natural feeding behavior in the wild.",
+      "Social interaction with people or other birds is critical; isolated parrots frequently develop behavioral disorders.",
+      "Teach simple tricks using positive reinforcement — this provides mental stimulation and strengthens bonding.",
+      "Birds require access to unfiltered natural sunlight or avian-specific UVB lighting (not standard bulbs) to synthesize Vitamin D3, which is essential for calcium absorption and bone health. A bird kept exclusively under artificial lighting without UVB supplementation will develop metabolic bone disease over time."
+    ],
+    "general": [
+      "Most pet birds are long-lived: budgies 10–15 years, cockatiels 15–20, large parrots 40–80+ years.",
+      "Birds are sensitive to drafts, temperature changes, and airborne toxins; kitchen fumes are especially dangerous.",
+      "Cage size matters enormously; birds need enough space to fully extend and flap both wings without obstruction.",
+      "Annual avian vet checkups are recommended; bloodwork should be done every 1–2 years for early disease detection.",
+      "Consistent sleep of 10–12 hours in a dark, quiet space is essential for hormonal health in pet birds.",
+      "PTFE/Teflon is acutely fatal to birds. When non-stick cookware, self-cleaning ovens, or air fryers are heated, they release polytetrafluoroethylene (PTFE) gas, which causes instant, fatal pulmonary hemorrhage in birds. There is no warning and no treatment — death occurs within minutes. Never use non-stick cookware in a home with birds, and ensure adequate ventilation if you must. Stainless steel or cast iron are safe alternatives.",
+      "Heavy metal poisoning is a serious and common risk. Zinc (found in galvanized cage wire, cheap hardware, and some toys) and lead (found in old paint, solder, and some imported toys) are highly toxic to birds when ingested through chewing. Only purchase cages and accessories confirmed to be zinc-free and lead-free, and inspect cages regularly for rust or flaking metal."
+    ]
+  },
+  "fish": {
+    "feeding": [
+      "Most tropical and coldwater fish should be fed once or twice daily; feed only what they can consume in 2 minutes.",
+      "Overfeeding is the most common cause of poor water quality; uneaten food decays and spikes ammonia levels.",
+      "Vary the diet with flakes, pellets, frozen, and live foods to ensure complete nutrition.",
+      "Fast fish for one day per week to clear their digestive systems and help prevent bloat.",
+      "Bottom feeders and nocturnal fish need food sunk to the substrate; surface flakes do not reach them."
+    ],
+    "general": [
+      "Test water parameters (ammonia, nitrite, nitrate, pH) weekly; problems are often invisible until fish are stressed.",
+      "Perform 25–30% water changes weekly to dilute nitrates and maintain water quality.",
+      "New fish should be quarantined for 2–4 weeks before being introduced to an established tank.",
+      "Avoid sudden temperature changes; fluctuations of more than 2°C stress fish and suppress immune function.",
+      "Research compatibility before adding new fish; aggression and fin-nipping are common causes of fish death.",
+      "The Nitrogen Cycle is the foundation of fish keeping. In a new tank, fish waste produces ammonia (lethal), which is converted by beneficial bacteria into nitrite (also lethal), which is then converted into nitrate (less harmful). A new tank must be cycled for 4–6 weeks before adding fish to establish these bacterial colonies. Adding fish to an uncycled tank almost always results in death from ammonia poisoning.",
+      "Tap water must always be treated with a dechlorinator (sodium thiosulfate) before being added to a tank. Chlorine and chloramine in tap water kill fish directly and destroy the beneficial bacterial colonies that maintain the nitrogen cycle. A few drops of dechlorinator per gallon is inexpensive and non-negotiable.",
+      "Minimum tank sizes matter critically. Fishbowls are inadequate for virtually every fish species and cause chronic stress, stunted growth, and early death from ammonia buildup. Even a single Betta splendens requires a minimum 5-gallon tank with a heater (set to 24–28°C) and a low-flow filter. Larger, schooling, or active species require proportionally larger tanks."
+    ],
+    "enrichment": [
+      "Provide hiding spots, plants, and varied substrate so fish can express natural behaviors like exploration and shelter-seeking.",
+      "Live plants improve water quality, provide cover, and reduce stress for most fish species.",
+      "Flow rate matters; high-flow fish (hillstream loaches, danios) need strong current while bettas prefer calm water.",
+      "Rearranging decor occasionally reduces territorial aggression in cichlids and other aggressive species.",
+      "Bettas respond to their own reflection and to simple training; a small mirror used briefly can provide stimulation."
+    ]
+  },
+  "hamster": {
+    "exercise": [
+      "Hamsters can run 5–8 miles per night; a solid-surface wheel of at least 10 inches is essential, not optional.",
+      "Wire wheels cause painful foot injuries; always use solid-surface or mesh wheels with small enough gaps.",
+      "Hamster balls provide out-of-cage exercise but should be used for no more than 15–20 minutes at a time.",
+      "Tubes, multi-chamber setups, and burrowing substrate satisfy the hamster's natural instinct to explore and dig.",
+      "Hamsters are crepuscular/nocturnal; respect their sleep schedule and avoid disturbing them during the day."
+    ],
+    "feeding": [
+      "Hamsters are omnivores; a base of quality hamster mix plus fresh vegetables several times a week is ideal.",
+      "Avoid citrus, onion, garlic, raw potato, and rhubarb — these are toxic to hamsters.",
+      "Hamsters naturally hoard food; check and clean the hoard weekly so old food does not mold.",
+      "Fresh water should be available at all times via a sipper bottle; check daily that the sipper is not blocked.",
+      "Treats such as small pieces of chicken, mealworms, or egg provide enriching protein variety."
+    ],
+    "grooming": [
+      "Hamsters self-groom like cats and rarely need human assistance unless they are elderly or ill.",
+      "Long-haired hamsters (Angora, Teddy Bear) may need occasional gentle brushing to prevent mat formation.",
+      "If a hamster has bedding, feces, or sticky material caught in its fur, spot-clean with a barely damp cloth.",
+      "Never bathe hamsters in water; it strips their coat oils and can rapidly lead to fatal chilling.",
+      "Check nails every 4–6 weeks; overgrown nails catch on cage bars and can cause injury.",
+      "Hamsters need a sand bath dish filled with fine reptile-safe sand (never chinchilla dust or playground sand) to roll in. This removes excess skin oils and is an important part of natural grooming. Leave the sand dish in the enclosure permanently or offer it several times a week."
+    ],
+    "enrichment": [
+      "Deep substrate (6+ inches of paper-based bedding) lets hamsters burrow, which is essential for their mental health.",
+      "Provide nesting material such as paper strips or tissue so the hamster can build its own sleeping nest.",
+      "Scatter feeding — hiding food throughout the enclosure — mimics foraging and keeps hamsters engaged.",
+      "Cardboard tubes, cork logs, and wooden hides provide exploration and chewing opportunities.",
+      "Hamsters are solitary; housing two together (especially Syrian hamsters) almost always leads to serious injury."
+    ],
+    "general": [
+      "Hamsters typically live 2–3 years; health declines quickly in the final 6 months, so monitor closely.",
+      "Wet tail (proliferative ileitis) is a bacterial diarrheal disease that is fatal within 48 hours without treatment.",
+      "Keep hamsters at 18–24°C (65–75°F); temperatures below 10°C can trigger torpor (false hibernation).",
+      "Handle hamsters gently and consistently from a young age; stressed hamsters bite more frequently.",
+      "Find an exotic vet experienced with small mammals before you need one, as emergencies arise suddenly.",
+      "Minimum enclosure requirements: hamsters need at least 800 square inches (roughly 40×20 inches) of unbroken, single-level floor space. Modular plastic tube habitats and small starter cages sold in pet shops are far below this minimum and cause chronic stress-pacing. A single large glass tank or bin cage is far better than any multi-tube plastic setup."
+    ]
+  },
+  "guinea_pig": {
+    "exercise": [
+      "Guinea pigs need at least 1–2 hours of floor time outside their enclosure each day in a safe space.",
+      "They cannot jump or climb well; ensure exercise pens are secure at the sides, not just the top.",
+      "Guinea pigs are social and exercise more when they have a companion to interact with.",
+      "Ramps, tunnels, and low platforms encourage movement and exploration during floor time.",
+      "Avoid hamster balls for guinea pigs — their spines are not designed for the curved posture required."
+    ],
+    "feeding": [
+      "Unlimited hay must be the dietary foundation; it provides the fiber needed for gut health and dental wear.",
+      "Adult guinea pigs (over 6 months, non-pregnant) should have timothy hay or orchard grass hay as their staple. Alfalfa hay is too high in calcium and will cause painful bladder sludge and fatal bladder stones over time. Alfalfa is appropriate only for pregnant or nursing sows and guinea pigs under 6 months of age.",
+      "Guinea pigs cannot synthesize vitamin C and must get it daily from fresh vegetables like bell peppers and leafy greens.",
+      "Provide about 1 cup of fresh vegetables per guinea pig per day; dark leafy greens are most nutritious.",
+      "Pellets should be plain, vitamin C-fortified, and limited to about 1/8 cup per pig per day.",
+      "Avoid sugary fruits, iceberg lettuce, potatoes, and any processed human food."
+    ],
+    "grooming": [
+      "Short-haired guinea pigs need brushing once a week; long-haired breeds (Peruvian, Silkie) need daily grooming.",
+      "Nails should be trimmed every 4–6 weeks; overgrown nails curl and make walking painful.",
+      "Guinea pigs generally do not need baths but can be spot-cleaned; if bathing is necessary, dry them thoroughly.",
+      "Check skin and fur regularly for mites, lice, or ringworm, which are common in guinea pigs.",
+      "Boars (males) have a grease gland near the tail that needs cleaning with coconut oil every few weeks."
+    ],
+    "enrichment": [
+      "Guinea pigs are highly social and should ideally be housed in same-sex pairs or small groups.",
+      "Provide multiple hiding houses so each pig can retreat without competition causing stress.",
+      "Foraging toys and vegetable scatter feeding tap into natural grazing behavior and reduce boredom.",
+      "Cardboard boxes, tunnels, and paper bags (handles removed) provide inexpensive and safe enrichment.",
+      "Talk to your guinea pigs daily; they learn to recognize voices and will often wheek (vocalize) in response."
+    ],
+    "general": [
+      "Guinea pigs live 4–7 years and require a significant time investment across their lifespan.",
+      "Vitamin C deficiency (scurvy) is common and causes joint pain, lethargy, and dental problems — supplement daily.",
+      "Find an exotic vet experienced with guinea pigs; respiratory infections and dental issues require specialist care.",
+      "Pairs or groups are strongly recommended; solitary guinea pigs show signs of chronic stress and shorter lifespans.",
+      "Keep guinea pigs away from extreme heat — temperatures above 26°C (79°F) can cause fatal heatstroke quickly.",
+      "Minimum enclosure size for guinea pigs: a pair needs at least 7.5–10.5 square feet of single-level floor space. Ramps, lofts, and upper platforms do not count toward this floor footprint and should not be used to justify a smaller base. Most cages sold in pet stores are significantly undersized; a C&C (cube and coroplast) cage or a purpose-built large enclosure is strongly recommended."
+    ]
+  }
+}
