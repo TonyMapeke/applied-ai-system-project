@@ -12,15 +12,6 @@
 
 [![Watch the demo](assets/preview.png)](https://www.loom.com/share/c98ba675e737488c94f649de541b8323)
 
-**What the video covers:**
-1. Creating an owner profile and adding two pets (dog + cat)
-2. Adding tasks with different priorities, durations, and recurrence settings
-3. Generating a daily schedule and reviewing the AI-powered explanation
-4. Triggering a conflict warning with overlapping start times
-5. Marking a recurring task complete and confirming the next occurrence auto-populates
-
-*No Loom account? A GIF or screenshot walkthrough in the `assets/` folder is an acceptable substitute.*
-
 ---
 
 ## Original Project (Modules 1–3)
