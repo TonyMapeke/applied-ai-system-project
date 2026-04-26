@@ -10,11 +10,7 @@
 
 ## Demo Walkthrough
 
-> **Add your Loom recording link here before submission.**
->
-> Replace the placeholder below with your actual Loom URL once recorded.
-
-[![Watch the demo](assets/preview.png)](https://www.loom.com/share/YOUR_LOOM_VIDEO_ID_HERE)
+[![Watch the demo](assets/preview.png)](https://www.loom.com/share/c98ba675e737488c94f649de541b8323)
 
 **What the video covers:**
 1. Creating an owner profile and adding two pets (dog + cat)
